@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!-- 
+    Name: Kermit Kreder
+    Pawprint: kgk2bt
+    Date: 2/11/2021
+    Challenge: Tables S21
+-->
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <title>Kgk2btTablesS21</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="CSS/Kgk2btTablesS21.css">
+        <link rel="stylesheet" href="CSS/Kgk2btGlobalCSS.css">
+        
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div id="overrideBootstrap" class="row">
+                <ul id="navBar">
+                    <li class="menuItem"><a href="Kgk2btPortfolioS21.html">Kermit Kreder</a></li>
+                    <li class="menuItem"><a href="Kgk2btColumnsS21.html">Skills</a></li>
+                    <li id="selected" class="menuItem"><a href="Kgk2btTablesS21.html">Classes</a></li>
+                    <li class="menuItem"><a href="Kgk2btProjectsS21.html">Projects</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                <table class="table table-dark">
+                    <thead>
+                        <tr>
+                            <th class="header" colspan="7">Kermit's Course History</th>
+                        </tr>
+                        <tr>
+                            <th class="header" colspan="7"><img class="icon left" src="Assets/Kgk2btMUTiger.png" alt="MULogo"/>University of Missouri-Columbia<img id="right" class="icon" src="Assets/Kgk2btMUTiger.png" alt="MULogo"/></th>
+                        </tr>
+                        <tr>
+                            <th>Department</th>
+                            <th>Course</th>
+                            <th>Course #</th>
+                            <th>Description</th>
+                            <th>Professor</th>
+                            <th>Grade</th>
+                            <th>Units</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="computerScience" class="department" rowspan="4">Computer Science</td>
+                            <td>Advanced Algorithm Design</td>
+                            <td>3050</td>
+                            <td>Designed algorithms</td>
+                            <td>Saab</td>
+                            <td>A</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Objected-Oriented Programming</td>
+                            <td>3330</td>
+                            <td>Learned the principles of OOP using Java</td>
+                            <td>Wergeles</td>
+                            <td>B</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Web Application Development 1</td>
+                            <td>2830</td>
+                            <td>Learning how to create websites using HTML and CSS</td>
+                            <td>Wergeles</td>
+                            <td>In-progress</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Databases Applications and Information Systems</td>
+                            <td>3380</td>
+                            <td>Learning how to create Databases</td>
+                            <td>Jiang</td>
+                            <td>In-progress</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td id="informationTechnology" class="department" rowspan="2">Information Technology</td>
+                            <td>Fundamentals of Information Technology</td>
+                            <td>2810</td>
+                            <td>Learning how networks are build and how they communicate</td>
+                            <td>Wang</td>
+                            <td>In-progress</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Introduction to Digital Media Design</td>
+                            <td>1610</td>
+                            <td>Learning how to create Digital media in differnt forms</td>
+                            <td>Gubera</td>
+                            <td>In-progress</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td id="mathematics" class="department" rowspan="2">Mathematics</td>
+                            <td>Introduction to Advanced Mathematics</td>
+                            <td>3000</td>
+                            <td>Learning the underlying concepts of Mathematics and how to prove them</td>
+                            <td>Harcharras</td>
+                            <td>In-progress</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Differential Equations</td>
+                            <td>4140</td>
+                            <td>Learning how to solve different differential equations depending on their variables and forms</td>
+                            <td>Dey</td>
+                            <td>A</td>
+                            <td>3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- These cards were gotten from https://getbootstrap.com/docs/4.0/components/card/#card-styles They are all the light card template -->
+            
+            <!-- Physical Width Calculation:
+              ALL PADDINGS/BORDERS ARE 0%
+            left margin:             2%
+            + card:                  29.33%
+            + right and left margin: 4%
+            + card:                  29.33%
+            + right and left margin: 4%
+            + card:                  29.33%
+            + right margin:          2%
+            total: 100%                 -->
+            
+            <div class="cardWrapper clearHack">
+                <div class="card bg-light mb-3">
+                    <div class="card-header">
+                        <h2>Kermit Kreder</h2>
+                    </div>
+                    <div class="card-body">
+                        <img id="professionalPic" src="Assets/Kgk2btPortfolioS21Picture.JPEG" alt="Professional Picture">
+                        <p class="card-text">Second year student in Computer Science, Information Technology, and Mathematics with 103 credits.</p>
+                    </div>
+                </div>
+                <div class="card bg-light mb-3">
+                    <div class="card-header">
+                        <h2>Languages</h2>
+                    </div>
+                    <div class="card-body">
+                        <h5>Java</h5>
+                        <h5>C#</h5>
+                        <h5>C</h5>
+                        <h5>Assembly</h5>
+                        <h5>HTML/CSS</h5>
+                        
+                        <!-- Physical Width Calculation:
+                        ALL PADDINGS/BORDERS ARE 0%
+                        left margin:             9.167%
+                        + Image:                 15%
+                        + right and left margin: 18.334%
+                        + Image:                 15%
+                        + right and left margin: 18.334%
+                        + Image:                 15%
+                        + right margin:          9.167%
+                        total: 100%                 -->
+                        
+                        <img class="left icon cardImage" src="Assets/Kgk2btJava.png" alt="Java"/>
+                        <img class="left icon cardImage" src="Assets/Kgk2btCSharp.png" alt="C#"/>
+                        <img class="left icon cardImage" src="Assets/Kgk2btCSS.png" alt="CSS"/>
+                    </div>
+                </div>
+                <div class="card bg-light mb-3">
+                    <div class="card-header">
+                        <!-- Logo from: https://www.riotgames.com/en/press -->
+                        <img id="league" src="Assets/Kgk2btLeague.png" alt="LeagueOfLegends"/>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">CS3330 Final Project</h5>
+                        <p class="card-text">For this project, I used an API provided by Riot Games for their game, League of Legends, to display the basic information about any champion in the game. The user can search the name of a champion to see their basic information and statistics.</p>
+                    </div>
+                </div>
+                <h4>Updated 2/13/2021</h4>
+            </div>
+        </div>
+    </body>
+</html>

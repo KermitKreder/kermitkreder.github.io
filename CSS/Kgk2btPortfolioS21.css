@@ -1,0 +1,55 @@
+#picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    max-width: 40%;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+}
+
+.header {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: lightslategrey;
+}
+
+p {
+    text-align: center;
+    font-size: 22px;
+    color: lightslategrey;
+}
+
+.button {
+    width: 70px;
+    Height: 60px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 14px;
+    vertical-align: top;
+    font-weight: bold;
+    background-color: lightslategrey;
+    border: 0;
+    border-radius: 20px;
+}
+
+.form {
+    display: inline-block;
+}
+
+.div {
+    vertical-align: center;
+    text-align: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    background-color: black;
+}

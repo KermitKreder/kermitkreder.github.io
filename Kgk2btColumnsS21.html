@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- 
+    Name: Kermit Kreder
+    Pawprint: kgk2bt
+    Date: 2/5/2021
+    Challenge: Multi-Column Layout S21
+-->
+
+<html lang="en">
+    <head>
+        <title>Kgk2btColumnsS21</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="CSS/Kgk2btColumnsS21.css">
+        <link rel="stylesheet" href="CSS/Kgk2btGlobalCSS.css">
+        
+    </head>
+    <body>
+        <!-- Main wrapper. This div should wrap all columns, row wrapper, and title header -->
+        <div>
+            <ul id="navBar">
+                <li class="menuItem"><a href="Kgk2btPortfolioS21.html">Kermit Kreder</a></li>
+                <li id="selected" class="menuItem"><a href="Kgk2btColumnsS21.html">Skills</a></li>
+                <li class="menuItem"><a href="Kgk2btTablesS21.html">Classes</a></li>
+                <li class="menuItem"><a href="Kgk2btProjectsS21.html">Projects</a></li>
+            </ul>
+        </div>
+        <div class="mainWrapper clearHack">
+            
+            <h1 id="skills" class="text">Skills</h1>
+            <!-- Left Column -->
+            <!-- Put left column physical width calculations here: 
+            + 244px (width) 
+            + 42px (padding left and right) 
+            + 12px (left and right border) 
+            + 42px (left and right margin) 
+            = 340px (left physical width)
+            -->
+            <div class="leftColumn">
+            
+                <h2 class="text">Courses</h2>
+                <p class="text">Object-Oriented Programming, Advanced Algorithm Design, Assembly Language, Wed Development 1 (in progress), Fundamentals of Network Technology (in progress), and Database Applications and Information Systems (in progress).</p>                
+            </div>
+            
+            <!-- Row Wrapper. This div will contain two rows -->
+            <!--Put middle column physical width calculations here:
+            + 435px (width) 
+            + 0px (padding left and right) 
+            + 0px (left and right border) 
+            + 42px (left and right margin) 
+            = 472px (middle physical width)
+            -->
+            <div class="rowWrapper">
+            
+                <div class="topRow">
+                    <h2 class="text">Languages</h2>
+                    <p class="text">C, Java, HTML/CSS, C#, Assembly.</p>
+                </div>
+                
+                <div class="bottomRow">
+                    <h2 class="text">Technologies</h2>
+                    <p class="text">Brackets, Unity, XCode.</p>
+                </div>
+                
+            </div>
+            
+            <!-- Right Column -->
+            <!--Put right column physical width calculations here: 
+            + 209px (width) 
+            + 42px (padding left and right) 
+            + 12px (left and right border) 
+            + 42px (left and right margin) 
+            = 305px (middle physical width)
+            -->
+            <div class="rightColumn">
+            
+                <h2 class="text">Activities</h2>
+                <p class="text">Mizzou Computing Association (game-dev sig), Institute of Electrical and Electronics Engineers, Mizzou Club Baseball.</p>  
+            
+            </div>
+        </div>
+    </body>
+</html>

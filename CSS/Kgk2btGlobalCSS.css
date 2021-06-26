@@ -1,0 +1,45 @@
+#navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: lightslategrey;
+    text-decoration: none;
+}
+
+.menuItem {
+    margin: 10px;
+    font-size: 30px;
+    font-family: sans-serif;
+    display: inline;
+    text-decoration: none;
+}
+
+#selected {
+    background-color: black;
+    border: 2px solid black;
+    border-bottom: 0;
+}
+
+
+#overrideBootstrap #navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: lightslategrey;
+    line-height: normal;
+}
+
+#overrideBootstrap .menuItem {
+    margin: 10px;
+    font-size: 30px;
+    font-family: sans-serif;
+    display: inline;
+}

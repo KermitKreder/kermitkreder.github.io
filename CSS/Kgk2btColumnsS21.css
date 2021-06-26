@@ -1,0 +1,85 @@
+.mainWrapper {
+    
+    text-align: center;
+    align-content: center;
+    width: 1122px;
+    height: 600px; 
+    margin-top: 40px;
+    margin: auto;
+    border: 9px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.clearHack:after {
+    clear: both;
+    content: "";
+    display: table;
+    
+}
+
+#skills {
+    text-align: center;
+    height: 10px;
+}
+
+.leftColumn {
+    background-color: darkslategray;
+    border: 6px solid gray;
+    border-radius: 5px;
+    width: 244px;
+    height: 425px;
+    padding: 21px;
+    margin: 21px;
+    
+    float: left;
+}
+
+.rowWrapper {
+    width: 435px;
+    margin: 21px;
+    height: 475px;
+    
+    float: left;
+}
+
+.rightColumn {
+    background-color: darkslategray;
+    border: 6px solid gray;
+    border-radius: 5px;
+    width: 209px;
+    height: 425px;
+    padding: 21px;
+    margin: 21px;
+    
+    float: left;
+}
+
+.topRow {
+    background-color: darkslategray;
+    border: 6px solid gray;
+    border-radius: 5px;
+    width: 376px;
+    height 211px;
+    padding: 22px;
+    margin-bottom: 13px;
+}
+
+.bottomRow {
+    background-color: darkslategray;
+    border: 6px solid gray;
+    border-radius: 5px;
+    width: 376px;
+    height: 130px;
+    padding: 22px;
+    margin-top: 13px;
+}
+
+.text {
+    color: lightslategrey;
+}
+
+
+body {
+    background-color: black;
+}
