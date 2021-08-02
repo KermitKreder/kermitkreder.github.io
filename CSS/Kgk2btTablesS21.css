@@ -19,8 +19,8 @@
     float: right;
 }
 
-#tableTitle {
-    margin-top: 5em;
+.row {
+    padding-top: 5em;
 }
 
 #professionalPic {
