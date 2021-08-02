@@ -19,6 +19,10 @@
     float: right;
 }
 
+#tableTitle {
+    margin-top: 1em;
+}
+
 #professionalPic {
     height: 250px;
 }
