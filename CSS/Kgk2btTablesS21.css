@@ -38,6 +38,10 @@
     
 }
 
+#courseNum {
+    width: 100px;
+}
+
 .table td.department{
     vertical-align: middle;
     text-align: center;
